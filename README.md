@@ -26,8 +26,6 @@ Required dependencies:
 # Usage
 
 ```bash
-python hot_reload.py [module_name] [-c] [-noUI] [-v]
-
 Arguments:
 - `module_name`: Name of the module to watch (without .py extension)
 - `-c, --clear`: Clear console on each reload
@@ -36,6 +34,9 @@ Arguments:
 
 ```
 
+# Warning
+
+This module was not tested with complex applications, but it should work with simple scripts.
 # License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
