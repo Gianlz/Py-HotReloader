@@ -1,2 +1,41 @@
-# Py-HotReloader
-A lightweight Python hot-reload utility that automatically reloads your Python modules when changes are detected. Perfect for development workflows where you want to see immediate results without manually restarting your application.
+# 🔄 Hot Reload
+
+A lightweight Python module reloader that watches for file changes and automatically reloads modules during development.
+
+## Features
+
+- 🔍 Automatically detects and reloads Python modules when changes are saved
+- 📁 Supports modules in both current directory and Utils/ subdirectory 
+- 🎨 Clean console UI with colored output
+- 🔄 Clear console option on each reload
+- 🎯 Callback support for custom reload actions
+- ⚡ Fast and lightweight
+
+## Requirements
+
+- Python 3.8 or higher
+
+## Installation
+
+No installation required - just copy `hot_reload.py` to your project directory.
+
+Required dependencies:
+- watchdog
+
+
+# Usage
+
+```bash
+python hot_reload.py [module_name] [-c] [-noUI] [-v]
+
+Arguments:
+- `module_name`: Name of the module to watch (without .py extension)
+- `-c, --clear`: Clear console on each reload
+- `-noUI`: Disable UI elements
+- `-v, --version`: Show version information
+
+```
+
+# License
+
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
